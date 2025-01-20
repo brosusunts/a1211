@@ -26,7 +26,11 @@ local library = {
         light_contrast = Color3.fromRGB(35, 35, 35),
         dark_contrast = Color3.fromRGB(15, 15, 15),
         text = Color3.fromRGB(255, 255, 255),
-        dark_text = Color3.fromRGB(175, 175, 175),
+        dark_text = Color3.fromRGB(175, 175, 175)
+    }
+}
+
+library.Init()
         gradient1 = ColorSequence.new({
             ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 59, 59)),
             ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 89, 89))
